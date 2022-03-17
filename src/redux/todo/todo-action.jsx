@@ -13,3 +13,10 @@ export const toggleTodo = id => {
         payload: id
     }
 }
+
+export const editTodo = id => {
+    return {
+        type: EDIT_TODO,
+        payload: id
+    }
+}

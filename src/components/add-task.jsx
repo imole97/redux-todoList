@@ -17,7 +17,8 @@ const AddTask = ({addTodo}) => {
      const todos = addTodo({
             id: Date.now(),
             name: name,
-            done: false
+            done: false,
+            edit: false
         })
         SetName('')
         console.log(todos)
